@@ -5,7 +5,7 @@ let revWords1 = (str) => {
   let arr = str.split(" ");
   let result = "";
   for (var i = 0; i < arr.length; i++) {
-    revWord;
+    result += arr[i];
   }
   return result;
 };
@@ -25,7 +25,7 @@ let revWords3 = (str) => {
   let arr = str.split("");
   let result = "";
   for (char of arr){
-    result = char = result;
+    result = char + result;
   }
   return result;
 };
