@@ -37,19 +37,3 @@ let revWords3 = (str) => {
   }
   return result;
 };
-
-/*
-let containsDuplicates = s => {
-  let charCount = new Array(3).fill(0);
-  for (let i in charCount) {
-    let code = s[i].toUpperCase().charCodeAt(0) - 65;
-    //console.log(code);
-    if (charCount[code] > 0) {
-      return true;
-    } else {
-      charCount[i]++;
-    }
-  }
-  return false;
-};
-*/
