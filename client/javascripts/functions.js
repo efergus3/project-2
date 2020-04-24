@@ -1,5 +1,36 @@
 // jshint esversion: 6
 
+//3a. accepts a sentence and returns the string in reverse
+let revWords1 = (str) => {
+  let arr = str.split(" ");
+  let result = "";
+  for (var i = 0; i < arr.length; i++) {
+    revWord;
+  }
+  return result;
+};
+
+//3b. rewrite with for each
+let revWords2 = (str) => {
+  let arr = str.split("");
+  let result = "";
+  arr.forEach((char)=> {
+    result = char + result;
+  });
+  return result;
+};
+
+//3c. rewrite with for in
+let revWords3 = (str) => {
+  let arr = str.split("");
+  let result = "";
+  for (char of arr){
+    result = char = result;
+  }
+  return result;
+};
+
+
 let containsDuplicates = s => {
   let cArr = [0, 0, 0, 0],
     code;
